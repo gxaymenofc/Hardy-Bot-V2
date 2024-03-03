@@ -11,19 +11,19 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['212660131536', 'Aymane Touzani(GX)', true]
+  ['212660131536', 'Aymane Touzani', true]
 ];
 
 global.suittag = ['212660131536'];
 global.prems = ['212660131536'];
 
 global.packname = 'Sticker';
-global.author = 'Hardy - Bot';
-global.wm = 'Hardy - Bot';
-global.titulowm = 'Hardy - Bot';
-global.titulowm2 = `Hardy - Bot`
-global.igfg = 'Hardy - Bot';
-global.wait = '*[⏳] Charging...*';
+global.author = 'Hardy - Bot - V2';
+global.wm = 'Hardy - Bot - V2';
+global.titulowm = 'Hardy - Bot - V2';
+global.titulowm2 = `Hardy - Bot - V2`
+global.igfg = 'Hardy - Bot - V2';
+global.wait = '*[⏳] جاري التحميل...*';
 
 global.imagen1 = fs.readFileSync('./hardy.jpg');
 global.imagen2 = fs.readFileSync('./hardy.jpg');
@@ -36,22 +36,22 @@ global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'en';
+global.locale = 'ar';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('en', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('en', {month: 'long'});
-global.año = d.toLocaleDateString('en', {year: 'numeric'});
-global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('ar', {month: 'long'});
+global.año = d.toLocaleDateString('ar', {year: 'numeric'});
+global.tiempo = d.toLocaleString('ar-SA', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nHardy - Bot`;
-global.gt = 'Hardy - Bot';
-global.mysticbot = 'Hardy - Bot';
-global.md = 'https://github.com/tzaym1/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/tzaym1/TheMystic-Bot-MD';
-global.waitt = '*[ ⏳ ] Charging...*';
-global.waittt = '*[ ⏳ ] Charging...*';
-global.waitttt = '*[ ⏳ ] Charging...*';
-global.nomorown = '212778512227';
+global.wm2 = `${dia} ${fecha}\nHardy - Bot - V2`;
+global.gt = 'Hardy - Bot - V2';
+global.mysticbot = 'Hardy - Bot - V2';
+global.md = 'https://github.com/gxaymenofc/Hardy-Bot-V2';
+global.mysticbot = 'https://github.com/gxaymenofc/Hardy-Bot-V2';
+global.waitt = '*[ ⏳ ] جاري التحميل...*';
+global.waittt = '*[ ⏳ ] جاري التحميل...*';
+global.waitttt = '*[ ⏳ ] جاري التحميل...*';
+global.nomorown = '212660131536';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -66,8 +66,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Date:*  ${moment.tz('Africa/Casablanca').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hour:* ${moment.tz('Africa/Casablanca').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] التاريخ:*  ${moment.tz('Africa/Casablanca').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] الساعة:* ${moment.tz('Africa/Casablanca').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
