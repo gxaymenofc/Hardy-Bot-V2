@@ -1,10 +1,10 @@
 {
-  "name": "Hardy-Bot",
-  "website": "https://github.com/tzaym1",
-  "description": "Powered by GX (≧▽≦)",
-  "repository": "https://github.com/tzaym1/TheMystic-Bot-MD",
-  "logo": "https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/tzaym1/TheMystic-Bot-MD",
+  "name": "Hardy-Bot-V2",
+  "website": "https://github.com/gxaymenofc",
+  "description": "Powered by Aymane Touzani (≧▽≦)",
+  "repository": "https://github.com/gxaymenofc/Hardy-Bot-V2",
+  "logo": "https://raw.githubusercontent.com/gxaymenofc/Hardy-Bot-V2/master/hardy.jpg",
+  "success_url": "https://github.com/gxaymenofc/Hardy-Bot-V2",
   "keywords": [
     "nodejs",
     "heroku",
@@ -22,7 +22,7 @@
     "whatsapp-md",
     "hardybot",
     "hardy-bot",
-    "hardy-bot-md"],
+    "hardy-bot-v2"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
